@@ -33,7 +33,6 @@ int main(){
     int N, angka[100];
 
     scanf("%d", &N );
-    int i = 0;
 
     for (int i = 0; i < N; i++)
     {
