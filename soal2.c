@@ -39,11 +39,19 @@ int main(){
     {
         scanf("%d", &angka[i]);
     }
-    
 
+    printf("\n");
+    
+    
     for (size_t i = 0; i < N; i++)
     {
         printf("Langkah %d\n", Totallangkah(angka[i]));
+        if (i != N-1)
+        {
+            printf("\n");
+            
+        }
+        
     }
     
     return 0 ;
