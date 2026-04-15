@@ -45,11 +45,6 @@ int main(){
     for (int i = 0; i < N; i++)
     {
         printf("Langkah %d\n", Totallangkah(angka[i]));
-        if (i != N-1)
-        {
-            printf("\n");
-            
-        }
         
     }
     
