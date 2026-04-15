@@ -37,10 +37,7 @@ int main(){
     for (int i = 0; i < N; i++)
     {
         scanf("%d", &angka[i]);
-    }
-
-    printf("\n");
-    
+    }    
     
     for (int i = 0; i < N; i++)
     {
