@@ -35,7 +35,7 @@ int main(){
     scanf("%d", &N );
     int i = 0;
 
-    for (size_t i = 0; i < N; i++)
+    for (int i = 0; i < N; i++)
     {
         scanf("%d", &angka[i]);
     }
@@ -43,7 +43,7 @@ int main(){
     printf("\n");
     
     
-    for (size_t i = 0; i < N; i++)
+    for (int i = 0; i < N; i++)
     {
         printf("Langkah %d\n", Totallangkah(angka[i]));
         if (i != N-1)
